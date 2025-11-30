@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Engine
 {
-    internal class QuestCompletionItem
+    public class QuestCompletionItem
     {
-        public Quest Details {  get; set; }
+        public Item Details {  get; set; }
         public int Quantity { get; set; }
-        public QuestCompletionItem(Quest details, int quantity) 
+        public QuestCompletionItem(Item details, int quantity) 
         {
             Details = details;
             Quantity=quantity;
