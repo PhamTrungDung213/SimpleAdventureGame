@@ -11,6 +11,8 @@ namespace Engine
         public int ID {  get; set; }
         public string Name { get; set; }
         public string NameP { get; set; }
+        [Obsolete("Use NameP instead")]
+        public string NamePlural { get => NameP; set => NameP = value; }
 
         public Item(int id,string name,string namep)
         {

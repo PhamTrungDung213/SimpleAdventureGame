@@ -1,4 +1,4 @@
-﻿namespace simpleAdventure
+﻿namespace SimpleAdventure
 {
     partial class SimpleAdventure
     {

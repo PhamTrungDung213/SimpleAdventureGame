@@ -11,6 +11,9 @@ namespace Engine
         public int MaxHitPoints { get; set; }
         public int CurrentHitPoints { get; set; }
 
+        // Backwards-compatible property expected by UI
+        public int MaximumHitPoints { get => MaxHitPoints; set => MaxHitPoints = value; }
+
         public LivingCreature(int maxhitpoints,int currenthitpoints)
         {
             MaxHitPoints= maxhitpoints;
