@@ -1,2 +1,3 @@
 # Simple Adventure Game :
-A small winform game code fully by C#
+A small text-based RPG WinForm game
+Applying OOP and C# to handle game logic
